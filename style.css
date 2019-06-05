@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    display: grid; /* */
+    grid-template-areas: 'header header header header' /* Cada palavra representa uma coluna*/
+                         'nav nav nav nav'
+                         'section section aside aside'
+                         'footer footer footer footer';
+    grid-template-rows: 20vh 15vh 50vh 30vh; /* Define a altura das linhas */ /* */
+    /* grid-template-columns: 10vw 30vw 40vw 20vw Mudar o tamanho das colunas */
+    grid-gap: 10px;
+    background-color: black;
+}
+
+header{
+    grid-area: header; /* Puxa a area a ser coberta*/
+    background-color: red;
+}
+
+nav{
+    grid-area: nav;
+    background-color: blue;
+}
+
+section{
+    grid-area: section;
+    background-color: green;
+}
+
+aside{
+    grid-area: aside;
+    background-color: yellow;
+}
+
+footer{
+    grid-area: footer;
+    background-color: purple;
+}

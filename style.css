@@ -12,8 +12,23 @@ body{
 }
 
 header{
+    display: flex;
+    justify-content: center; /* alinha na horizontal */
     grid-area: header; /* Puxa a area a ser coberta*/
-    background-color: red;
+    background-color: black;
+
+}
+header div{
+    background-color: #b1b3bf;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+header div img{
+    height: 100px;
+    width: 100px;
 }
 
 nav{

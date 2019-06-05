@@ -7,7 +7,6 @@ body{
                          'footer footer footer footer';
     grid-template-rows: 20vh 15vh 50vh 30vh; /* Define a altura das linhas */ /* */
     /* grid-template-columns: 10vw 30vw 40vw 20vw Mudar o tamanho das colunas */
-    grid-gap: 10px;
     background-color: black;
     grid-template-columns: 25% 25% 25% 23.5%;
 }
@@ -57,7 +56,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: #093c7b;
 }
 
 section img{
@@ -73,8 +72,23 @@ section img:hover{ /* Muda só quando passa o mouse em cima */
 }
 
 aside{
+    align-items: center;
     grid-area: aside;
-    background-color: yellow;
+    display: flex;
+    background-color: #093c7b;
+    text-align: center;
+    padding: 0 30px;
+
+}
+
+aside p{
+    color: white;
+    font-family: 'Crimson Text', serif;
+}
+
+aside p span{
+    font-style: italic;
+    color: #ef752f;
 }
 
 footer{

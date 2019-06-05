@@ -9,6 +9,7 @@ body{
     /* grid-template-columns: 10vw 30vw 40vw 20vw Mudar o tamanho das colunas */
     grid-gap: 10px;
     background-color: black;
+    grid-template-columns: 25% 25% 25% 23.5%;
 }
 
 header{
@@ -53,7 +54,22 @@ nav a:hover{
 
 section{
     grid-area: section;
-    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+section img{
+    width: 300px;
+    border-radius: 170px;
+    border: 1px solid black;
+
+}
+
+section img:hover{ /* Muda só quando passa o mouse em cima */
+    width: 520px;
+
 }
 
 aside{

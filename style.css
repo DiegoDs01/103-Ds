@@ -93,5 +93,17 @@ aside p span{
 
 footer{
     grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: purple;
+}
+
+footer div{
+    display: flex;
+
+}
+footer img{
+    width: 50px;
+    height: 50px;
 }
